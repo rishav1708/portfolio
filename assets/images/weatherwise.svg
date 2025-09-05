@@ -1,0 +1,81 @@
+<svg width="400" height="300" viewBox="0 0 400 300" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="weatherGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0ea5e9;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#0284c7;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="400" height="300" fill="#f0f9ff"/>
+  
+  <!-- Main Container -->
+  <rect x="20" y="30" width="360" height="240" rx="12" fill="white" stroke="#bae6fd" stroke-width="2"/>
+  
+  <!-- Header -->
+  <rect x="20" y="30" width="360" height="50" rx="12" fill="url(#weatherGradient)"/>
+  <text x="40" y="60" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="white">WeatherWise API</text>
+  <text x="300" y="60" font-family="Arial, sans-serif" font-size="12" fill="white">v2.1</text>
+  
+  <!-- API Endpoints Section -->
+  <rect x="40" y="90" width="150" height="160" rx="8" fill="#f8fafc" stroke="#e2e8f0" stroke-width="1"/>
+  <text x="50" y="110" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#1e293b">API Endpoints</text>
+  
+  <!-- GET Endpoints -->
+  <rect x="50" y="120" width="60" height="18" rx="4" fill="#10b981"/>
+  <text x="80" y="132" font-family="Arial, sans-serif" font-size="8" fill="white" text-anchor="middle">GET</text>
+  <text x="120" y="132" font-family="Arial, sans-serif" font-size="9" fill="#374151">/weather/current</text>
+  
+  <rect x="50" y="145" width="60" height="18" rx="4" fill="#10b981"/>
+  <text x="80" y="157" font-family="Arial, sans-serif" font-size="8" fill="white" text-anchor="middle">GET</text>
+  <text x="120" y="157" font-family="Arial, sans-serif" font-size="9" fill="#374151">/weather/forecast</text>
+  
+  <rect x="50" y="170" width="60" height="18" rx="4" fill="#3b82f6"/>
+  <text x="80" y="182" font-family="Arial, sans-serif" font-size="8" fill="white" text-anchor="middle">POST</text>
+  <text x="120" y="182" font-family="Arial, sans-serif" font-size="9" fill="#374151">/weather/alerts</text>
+  
+  <rect x="50" y="195" width="60" height="18" rx="4" fill="#10b981"/>
+  <text x="80" y="207" font-family="Arial, sans-serif" font-size="8" fill="white" text-anchor="middle">GET</text>
+  <text x="120" y="207" font-family="Arial, sans-serif" font-size="9" fill="#374151">/weather/history</text>
+  
+  <!-- Response Example -->
+  <rect x="210" y="90" width="150" height="160" rx="8" fill="#1e293b"/>
+  <text x="220" y="110" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#e2e8f0">JSON Response</text>
+  
+  <!-- Code Block -->
+  <text x="220" y="130" font-family="Monaco, monospace" font-size="8" fill="#60a5fa">{</text>
+  <text x="230" y="145" font-family="Monaco, monospace" font-size="8" fill="#fbbf24">"location":</text>
+  <text x="280" y="145" font-family="Monaco, monospace" font-size="8" fill="#34d399">"New York"</text>
+  <text x="330" y="145" font-family="Monaco, monospace" font-size="8" fill="#60a5fa">,</text>
+  
+  <text x="230" y="160" font-family="Monaco, monospace" font-size="8" fill="#fbbf24">"temp":</text>
+  <text x="270" y="160" font-family="Monaco, monospace" font-size="8" fill="#f87171">22</text>
+  <text x="285" y="160" font-family="Monaco, monospace" font-size="8" fill="#60a5fa">,</text>
+  
+  <text x="230" y="175" font-family="Monaco, monospace" font-size="8" fill="#fbbf24">"condition":</text>
+  <text x="290" y="175" font-family="Monaco, monospace" font-size="8" fill="#34d399">"sunny"</text>
+  <text x="330" y="175" font-family="Monaco, monospace" font-size="8" fill="#60a5fa">,</text>
+  
+  <text x="230" y="190" font-family="Monaco, monospace" font-size="8" fill="#fbbf24">"humidity":</text>
+  <text x="285" y="190" font-family="Monaco, monospace" font-size="8" fill="#f87171">65</text>
+  <text x="300" y="190" font-family="Monaco, monospace" font-size="8" fill="#60a5fa">,</text>
+  
+  <text x="230" y="205" font-family="Monaco, monospace" font-size="8" fill="#fbbf24">"wind_speed":</text>
+  <text x="295" y="205" font-family="Monaco, monospace" font-size="8" fill="#f87171">12</text>
+  
+  <text x="220" y="220" font-family="Monaco, monospace" font-size="8" fill="#60a5fa">}</text>
+  
+  <!-- Weather Icons -->
+  <circle cx="80" cy="240" r="15" fill="#fbbf24"/>
+  <text x="80" y="246" font-family="Arial, sans-serif" font-size="16" text-anchor="middle">☀️</text>
+  
+  <circle cx="120" cy="240" r="15" fill="#9ca3af"/>
+  <text x="120" y="246" font-family="Arial, sans-serif" font-size="16" text-anchor="middle">⛅</text>
+  
+  <circle cx="160" cy="240" r="15" fill="#60a5fa"/>
+  <text x="160" y="246" font-family="Arial, sans-serif" font-size="16" text-anchor="middle">🌧️</text>
+  
+  <!-- Stats -->
+  <text x="220" y="240" font-family="Arial, sans-serif" font-size="9" fill="#6b7280">⚡ 50ms response • 📊 99.9% uptime • 🌍 Global coverage</text>
+  <text x="220" y="255" font-family="Arial, sans-serif" font-size="9" fill="#6b7280">🔄 Real-time updates • 📈 Historical data • ⚠️ Weather alerts</text>
+</svg>
