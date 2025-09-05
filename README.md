@@ -116,8 +116,8 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## Contact
 
-- **Email**: rishav.kant@example.com
-- **LinkedIn**: [linkedin.com/in/rishav-kant](https://linkedin.com/in/rishav-kant)
+- **Email**: rishav.kant@gmail.com.com
+- **LinkedIn**: [rishav-kant](www.linkedin.com/in/rishav-kant-a09bb7307)
 - **GitHub**: [github.com/rishav1708](https://github.com/rishav1708)
 
 ## Acknowledgments
